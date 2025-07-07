@@ -12,17 +12,18 @@
 <body>
     <header>
         <h1>Tic Tac Toe</h1>
+        <div id="mode-selection">
+            <button id="versus">Jouer à 2</button>
+            <button id="vsia">Jouer contre l'IA</button>
+        </div>
     </header>
 
-    <div id="mode-selection">
-        <button id="versus">Jouer à 2</button>
-        <button id="vsia">Jouer contre l'IA</button>
-    </div>
-
-    <div id="game"></div>
-    <div id="turn">C'est au tour du joueur : X</div>
-    <div id="message"></div>
-    <button id="restart">Rejouer</button>
+    <section>
+        <div id="game"></div>
+        <div id="turn">C'est au tour du joueur : X</div>
+        <div id="message"></div>
+        <button id="restart">Rejouer</button>
+    </section>
 
     <script src="./assets/js/main.js"></script>
 </body>
